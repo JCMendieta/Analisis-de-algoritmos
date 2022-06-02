@@ -1,0 +1,17 @@
+                                                MANUAL DE COMPILACIÓN Y USO
+
+1)Para poder ejecutar el código del proyecto se debe tener instalado python.
+2)Después abrir la consola del sistema operativo y entrar a la carpeta donde se encuentra el archivo "slicePuzzle.py"
+3)Ejecutar el comando python.exe slicePuzzle.py
+4)Especificar de que tamaño serán los tableros de taquin para resolver.
+5)Especificar opción de juego.
+  1  - Se genera un tablero de taquin aleatorio que el jugador puede intentar resolver ingresando comandos en la consola.
+       - U (Up)-> Intercambia el espacio vacio con elemento en la posición de arriba. 
+       - D (Down)-> Intercambia el espacio vacio con elemento en la posición de abajo. 
+       - L (Left)-> Intercambia el espacio vacio con elemento en la posición de la izquierda. 
+       - R (Right)-> Intercambia el espacio vacio con elemento en la posición de la derecha. 
+  2/8- Se generan tableros de taquin predefinidos que serán resueltos automaticamente por el algoritmo.
+       Estos tableros ya han sido usados en las pruebas por lo que se especifica cuanto tiempo tarda cada tablero.
+  9  - Se genera un tablero de taquin aleatorio que se soluciona automaticamente con el algoritmo.
+       - En la mayoria de casos con n>2 va a tomar bastante tiempo resolver estos tableros.
+
